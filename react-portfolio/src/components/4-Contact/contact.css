@@ -1,0 +1,144 @@
+
+
+.contacts-me{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title h1{
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    text-align: center !important;
+   
+}
+.title span{
+    color: rgb(245, 139, 157);
+}
+.contacts > * {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.contact-icon{
+    font-size: 20px;
+    padding: 8px;
+    transition: 0.5s;
+    border-radius: 50%;
+    border: 1px solid rgb(245, 139, 157);
+}
+.contact-icon:hover{
+    color: rgb(232, 108, 129);
+    border: 1px solid rgb(245, 139, 157);
+    padding: 8px;
+    cursor: pointer;
+    
+}
+.addres{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.addres input{
+    width: 60%;
+    padding: 6px;
+    background-color: var(--border);
+    border: none;
+    margin-bottom: 30px;
+    margin-top: 35px;
+}
+.addres input:hover{
+  border: 1px solid rgb(245, 139, 157);
+  padding: 6px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+.message textarea{
+    background-color: var(--border);
+    border: none;
+    width: 60%;
+    padding: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.message textarea:hover{
+    border: 1px solid rgb(245, 139, 157);
+
+}
+.submit{
+    display: flex;
+    text-align: center !important;
+    background-color:rgb(245, 139, 157);
+    padding: 10px;
+    width: 15%;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.submit:hover{
+    background-color: rgb(222, 67, 114);
+
+}
+.this-message{
+    color: var(--blue);
+    font-size: 20px;
+}
+
+/*----------------------light mode------------------*/
+.light .title span{
+    color: #353434;
+}
+.light .contacts{
+    color: #000;
+}
+.light .contact-icon{
+    border: 1px solid rgb(245, 139, 157);
+}
+.light .contact-icon:hover{
+    color: rgb(245, 139, 157);
+}
+.light button{
+    background-color: rgb(245, 139, 157);
+}
+
+@media (max-width:1000px) {
+    .contact-animation{
+        display: none;
+       
+    }
+    .contact {
+        width: 80%;
+        font-size: 11px;
+      
+    }
+    .contacts-me .title h1{
+        font-size: 20px;
+        
+    }
+ 
+    .addres{
+        font-size: 12px;
+        
+    }
+    .message{
+        font-size: 12px;
+       
+    }
+    .submit{
+        width: 16%;
+        padding: 8px;
+       
+    }
+    
+}
