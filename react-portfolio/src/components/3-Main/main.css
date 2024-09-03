@@ -166,18 +166,19 @@ main .section-left button.active{
 
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
 
   
     .section-left button{
         display: block;
         margin-bottom: 15px;
         width: 100%;
-       margin-left: 100px
+       margin-left: 10px
     }
 
     .right-section .card{
-      width: 63%;
+      width: 65%;
+      text-align: center !important;
      
     }
     .right-section .card .title{

@@ -87,33 +87,27 @@ section.hero .left-section{
     .left-section{
         text-align: center;
     }
+
     .left-section .avatar img{
-       width: 35%; 
-       margin-right: 90px;    
+       width: 30%; 
+         
     }
     .left-section h1{
         font-size: 20px;
-      margin-right: 95px;
     
     }
-    /* .left-section p{
-        width: 80%;
-        font-size: 15px;
-    } */
-    .right-section{
-        display: none;
+    .left-section p{
+      width: 85%;
     }
-    .left-section .icons-social{
-        font-size: 15px;
-        text-align: center;
-       
+    .right-section{
+        display: none !important;
+    }
+    .icons-social{
+        margin-left: 100px !important;       
     }
     .Dawnload-cv{
         width: 60%;
         text-align: center;
-       margin-right: 90px
     }
-    .right-section {
-       display: none;
-    }
+   
 }

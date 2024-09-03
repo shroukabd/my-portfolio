@@ -139,20 +139,19 @@ header .fixed ul.model li:first-child{
        
     }
     header.flex .icon{
-        margin-right: 180px;
+        margin-right: 10px;
+        
     }
- 
     .fixed ul li{
-        width: 45%;
+        width: 15%;
         text-align: center;
-       
     }
     .icon-menu{
         display: block;
         background-color: var(--bgHeader);
         height: 1.5rem;
         width: 1.5rem;
-        padding: 7px;
+        padding: 5px;
         cursor: pointer;
         border-radius: 50%;
         color: var(--subtitle);
